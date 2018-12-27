@@ -3,7 +3,7 @@ package com.feiyin.service;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.List;
 import java.util.Map;
@@ -18,7 +18,7 @@ public class JDK8Case {
      * 测试jdk写法
      * @date 2018/9/28 - 下午4:40
      */
-    @Test()
+    @Test
     public void testInnerMap() {
 
         Map<Integer, Integer> map = Maps.newHashMap();
